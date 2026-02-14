@@ -1,0 +1,114 @@
+# ------------------------------
+
+# Python bytecode / cache
+
+# ------------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+
+# Virtual environments
+
+# ------------------------------
+
+.venv/
+venv/
+env/
+ENV/
+
+# ------------------------------
+
+# Environment variables (secrets)
+
+# ------------------------------
+
+.env
+.env.*
+!.env.example   # keep a sample file if you add one
+
+# ------------------------------
+
+# Build / packaging
+
+# ------------------------------
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------
+
+# Logs & runtime files
+
+# ------------------------------
+
+*.log
+*.sqlite3
+*.db
+
+# ------------------------------
+
+# Testing / coverage
+
+# ------------------------------
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ------------------------------
+
+# Type check / lint caches
+
+# ------------------------------
+
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ------------------------------
+
+# Jupyter (if ever used)
+
+# ------------------------------
+
+.ipynb_checkpoints/
+
+# ------------------------------
+
+# OS / Editor files
+
+# ------------------------------
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ------------------------------
+
+# Temporary files
+
+# ------------------------------
+
+*.swp
+*.swo
+*~
+
+# ------------------------------
+
+# UV package manager
+
+# ------------------------------
+
+# Usually you SHOULD commit uv.lock for reproducibility.
+
+# Uncomment the next line only if you intentionally want to ignore it.
+
+# uv.lock
